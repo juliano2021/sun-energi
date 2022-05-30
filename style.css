@@ -1,0 +1,152 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    font-family: 'Rubik', sans-serif;
+    color: #161e25;
+} /*Efeitos gerais*/
+body, html{
+    height: 100%;
+} /*definição de tamanho de estrutura*/
+aside{
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    background-color: #d3540015;
+    border-right: solid #d35400 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} /*Barra de menu*/
+aside img{
+    position: relative;
+    margin-top: 25%;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+} /*logo de sol*/
+aside img:hover{
+    background-color: #d35400;
+    margin-top: 20%;
+    margin-bottom: -5%;
+    margin-left: -5%;
+    padding: 5%;
+    transition-duration: 1s;
+} /*Animação da logo de sol*/
+aside a{
+    position: relative;
+    text-decoration: none;
+    display: block;
+    top: 10%;
+    padding: 5%;
+    margin-bottom: 15%;
+    opacity: 0.4;
+    transition-duration: 0.2s;
+} /*Links & opções do menu*/
+aside a.selected{
+    opacity: 1;
+    border-bottom: #161e25 solid 1px;
+    transition-duration: 0.2s;
+} /*Link atual*/
+aside a:hover{
+    opacity: 0.6;
+    transition-duration: 0.2s;
+} /*Animação dos links*/
+section{
+    position: absolute;
+    height: 100%;
+    width: 85%;
+    left: 15%;
+    background-image: linear-gradient(to right, #d3540015 80%, #f1c40f);
+    display: flex;
+    flex-direction: column;
+} /*Formatação da section*/ 
+article{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+} /*Formatação do article*/
+.conteudo{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition-duration: 0.2s;
+} /*div responsavel por abrigar informação da página*/
+.conteudo *{
+    position: relative;
+    top: 25%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    transition-duration: 0.2s;
+} /*Formatação de posicionamento do texto*/
+.conteudo h1{
+    font-size: 300%;
+    margin-bottom: 5%;
+} /*Formatação H1*/
+.conteudo span{
+    color: #d35400;
+    font-size: 110%;
+    margin-left: 5%;
+} /*Formatação span*/
+.conteudo span:hover{
+    font-size: 120%;
+    transition-duration: 2s;
+} /*Formatação span animação*/
+.form{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transition-duration: 0.2s;
+} /*div que abriga o formulario*/
+.form *{ 
+    position: relative;
+    top: 25%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    transition-duration: 0.2s;
+} /*Formatação de posicionamento do texto*/
+.form h1{
+    font-size: 300%;
+    margin-bottom: 5%;
+} /*Formatação de H1*/ 
+.form span{
+    color: #d35400;
+    font-size: 110%;
+    margin-left: 5%;
+} /*Formatação de Span*/
+.form span:hover{
+    font-size: 120%;
+    transition-duration: 2s;
+} /*Formatação de animação do Span*/
+.rede{
+    padding: 1%;
+    width: 3%;
+    margin-left: 0%;
+    margin-top: -10%;
+    border-radius: 50%;
+    text-align: center;
+} /*Links & img rede sociais*/
+.rede:hover{
+    border: #d35400 2px solid;
+} /*Animação do .rede*/
+.img40{
+    width: 40%;
+    border-radius: 12%;
+} /*imagens do article*/
+.img40:hover{
+    border: #d35400 2px solid;
+} /*Animação de imagem*/
+.inp{
+    padding: 1% 2%;
+    text-align: center;
+    border: solid #161e25 2px;
+    background: none;
+} /*Formatação de input padrão*/
+.send{
+    padding: 1% 3%;
+    border: solid #161e25 2px;
+    background: none;
+} /*Formatação de input Submit*/ 
+.send:hover{
+    background-color: #d3540093;
+} /*Animação do .send*/
+
